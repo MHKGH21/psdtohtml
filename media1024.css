@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    background-color: rgb(48, 48, 48);
+    height: 103px;
+    width: 100vw;
+  }
+  header ul {
+    margin-left: 0px;
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content min-content min-content min-content;
+  }
+  header .logo {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  header li {
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    margin-top: 4.5vh;
+    margin-left: 40px;
+  }
+  header .search {
+    margin-left: 45px;
+    margin-top: 35px;
+  }
+
+  .section-1 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    overflow: auto;
+  }
+  .section-1 .sec-1-g1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+  }
+  .section-1 img {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .section-1 .sec-1-p {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+    width: 380px;
+    height: 94px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -35vh;
+  }
+  .section-1 button {
+    width: 200px;
+    height: 45px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgb(232, 99, 28);
+    position: absolute;
+    margin-top: -15vh;
+    margin-left: 10px;
+  }
+  .section-1 button p {
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+  }
+  .section-1 h1 {
+    font-size: 5vw;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -45vh;
+  }
+
+  .section-2 {
+    background-color: rgb(232, 99, 28);
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+    height: 700px;
+  }
+  .section-2 .element-row {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content min-content;
+    margin-left: 0px;
+    width: 100vw;
+  }
+  .section-2 .sec2-cards {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+    height: 380px;
+    width: 33.33vw;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .section-2 .sec2-cards img {
+    height: 250px;
+    width: 33.33vw;
+  }
+  .section-2 .sec2-cards h3 {
+    width: 33.33vw;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 4vw;
+  }
+  .section-2 .sec2-cards p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    width: 33.33vw;
+    text-align: center;
+    font-size: 2vw;
+  }
+  .section-2 .sec-2-g1 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+  }
+  .section-2 .sec-2-g1 .sec-2-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 9vw;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100vw;
+  }
+  .section-2 .sec-2-g1 p {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+
+  .section-3 {
+    display: grid;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    background-color: rgb(48, 48, 48);
+    width: 100vw;
+    height: 600px;
+  }
+  .section-3 .element-row {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content min-content;
+    margin-left: 0px;
+    width: 100vw;
+  }
+  .section-3 .sec-3-headtxt {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+    width: 100vw;
+  }
+  .section-3 .sec-3-headtxt h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 8vw;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100vw;
+  }
+  .section-3 .sec-3-headtxt p {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    font-size: 3vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100vw;
+    text-align: center;
+  }
+  .section-3 .sec3-tag1 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content;
+    background-color: rgb(232, 99, 28);
+    height: 320px;
+    width: 33.33vw;
+    border-radius: 20px;
+  }
+  .section-3 .sec3-tag1 img {
+    display: grid;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .section-3 .sec3-tag1 h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    display: grid;
+    justify-content: center;
+    font-size: 3vw;
+  }
+  .section-3 .sec3-tag1 p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    width: 33.33vw;
+    text-align: center;
+    font-size: 2vw;
+  }
+  .section-3 .sec3-tag1 div {
+    width: 120px;
+    height: 45px;
+    background-color: rgb(48, 48, 48);
+    margin-top: 10px;
+  }
+  .section-3 .sec3-tag1 div .price {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    width: 120px;
+    text-align: center;
+  }
+
+  .section-4 {
+    display: grid;
+    margin: auto;
+  }
+  .section-4 .col-2 {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content;
+    height: 380px;
+    width: 100vw;
+    background-color: rgb(232, 99, 28);
+  }
+  .section-4 .col-2 img {
+    width: 50vw;
+    height: 55%;
+  }
+  .section-4 .col-2 div {
+    background-color: rgb(232, 99, 28);
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
+    row-gap: 15px;
+    width: 50vw;
+    margin-left: 0px;
+    height: 384px;
+  }
+  .section-4 .col-2 div h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 6vw;
+    justify-self: center;
+  }
+  .section-4 .col-2 div p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .section-4 .col-2 div .btn {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(48, 48, 48);
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    height: 60px;
+    justify-self: center;
+  }
+
+  .section-5 {
+    display: grid;
+    margin: auto;
+  }
+  .section-5 .col-2 {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content;
+    height: 380px;
+    width: 100vw;
+    background-color: rgb(232, 99, 28);
+  }
+  .section-5 .col-2 img {
+    width: 50vw;
+    height: 54.8%;
+  }
+  .section-5 .col-2 div {
+    background-color: rgb(232, 99, 28);
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
+    row-gap: 15px;
+    width: 50vw;
+    height: 384px;
+    margin-left: 0px;
+  }
+  .section-5 .col-2 div h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 6vw;
+    justify-self: center;
+  }
+  .section-5 .col-2 div p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .section-5 .col-2 div .btn {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(48, 48, 48);
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    height: 60px;
+    justify-self: center;
+    margin-bottom: 10px;
+  }
+
+  .section-6 {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+    height: 520px;
+    width: 100vw;
+    background-color: rgb(48, 48, 48);
+  }
+  .section-6 .sec6-d1 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    margin-top: 30px;
+    width: 100vw;
+  }
+  .section-6 .sec6-d1 h2 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+    width: 100vw;
+    text-align: center;
+  }
+  .section-6 .sec6-d1 p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100vw;
+  }
+  .section-6 .col-element {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content min-content;
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+    width: 100vw;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .section-6 .col-element :nth-child(4) {
+    margin-left: 18px;
+    font-size: 3vw;
+  }
+  .section-6 .col-element :nth-child(5) {
+    margin-left: 0px;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .section-6 .col-element :nth-child(6) {
+    margin-left: -8px;
+    font-size: 3vw;
+  }
+  .section-6 .col-element h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 6vw;
+  }
+
+  .section-7 {
+    display: grid;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+    grid-template-columns: -webkit-max-content;
+    grid-template-columns: max-content;
+    justify-items: center;
+  }
+  .section-7 img {
+    width: 100vw;
+    margin-top: 0px;
+  }
+  .section-7 h2 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 8vw;
+    position: absolute;
+    margin-top: 210px;
+  }
+  .section-7 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+  }
+  .section-7 p span {
+    margin-left: 45px;
+  }
+  .section-7 .sec7-imgeffect {
+    margin-top: 0px;
+    opacity: 0.4;
+    display: none;
+  }
+
+  .section-8 {
+    background-color: rgb(232, 99, 28);
+    height: 470px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .section-8 .sec8-d1 {
+    display: grid;
+    grid-template-rows: -webkit-max-content -webkit-max-content;
+    grid-template-rows: max-content max-content;
+    justify-items: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .section-8 .sec8-d1 h2 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 8vw;
+  }
+  .section-8 .sec8-d1 p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+  }
+  .section-8 .sec8-d2 {
+    display: grid;
+    grid-template-rows: -webkit-max-content;
+    grid-template-rows: max-content;
+    grid-template-columns: -webkit-max-content -webkit-max-content;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  .section-8 .sec8-d2 .sec8-input {
+    width: 350px;
+    height: 40px;
+  }
+  .section-8 .sec8-d2 div {
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 44px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.6vw;
+  }
+
+  .section-9 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    grid-template-columns: -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content;
+    background-color: rgb(48, 48, 48);
+    width: 100vw;
+    height: 1000px;
+  }
+  .section-9 .sec9-d1 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
+    margin-top: 60px;
+    width: 30vw;
+    margin-left: 10vw;
+  }
+  .section-9 .sec9-d1 h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vw;
+  }
+  .section-9 .sec9-d1 p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    margin-top: 30px;
+  }
+  .section-9 .sec9-d1 .sec9-imgs {
+    display: grid;
+    grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-columns: min-content min-content min-content min-content;
+    margin-top: 30px;
+    width: 180px;
+    justify-content: space-between;
+  }
+  .section-9 .sec9-d1 .sec9-imgs img {
+    width: 35px;
+  }
+  .section-9 .sec9-d2 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content;
+    margin-top: 60px;
+    width: 30vw;
+    margin-left: 10vw;
+  }
+  .section-9 .sec9-d2 h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vw;
+    margin-bottom: 20px;
+  }
+  .section-9 .sec9-d2 p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+  .section-9 .sec9-d3 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content;
+    margin-top: 60px;
+    margin-left: 10vw;
+  }
+  .section-9 .sec9-d3 h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vw;
+    margin-bottom: 20px;
+  }
+  .section-9 .sec9-d3 p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+  .section-9 .sec9-d4 {
+    display: grid;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content;
+    margin-top: 60px;
+    margin-left: 10vw;
+  }
+  .section-9 .sec9-d4 h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vw;
+    margin-bottom: 20px;
+  }
+  .section-9 .sec9-d4 p {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=media1024.css.map */
